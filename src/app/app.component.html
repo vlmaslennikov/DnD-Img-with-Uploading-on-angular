@@ -1,0 +1,43 @@
+  <table  [appDragNDropCombo]='case' >
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+      <tr>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+    </tr>
+  </table>
+
+  <div class='checkbox-menu'>
+    <div>Upload file <br>
+      <input type="radio" name="switch" value="UploadFile" (change)=changeCase($event) >
+    </div>
+    <div>Drag the file to another cell <br>
+      <input type="radio" name="switch" value="DnDFile" (change)=changeCase($event) >
+    </div>
+    <div>Drag a row <br>
+      <input type="radio" name="switch" value="DnDRow" (change)=changeCase($event)>
+    </div>
+    <div>Detete file <br>
+      <input type="radio" name="switch" value="Delete" (change)=changeCase($event)>
+    </div>
+  </div>
+  
+
+
+
+
+ 
